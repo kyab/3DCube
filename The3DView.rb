@@ -286,7 +286,6 @@ class The3DView < NSView
 		rect.origin.y = point[1]+3
 		#p at_text.size
 		
-		at_text = NSAttributedString.new.initWithString(text, attributes:attributes)
 		at_text.drawInRect(rect)
 	end
 
