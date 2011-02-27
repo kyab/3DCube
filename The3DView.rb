@@ -266,7 +266,8 @@ class The3DView < NSView
 	
 	end
 	
-	def drawText(text, point3D)	#point3D is center of text
+	#draw text centerized on point3D
+	def drawText(text, point3D)	
 	
 		
 		attributes = {
